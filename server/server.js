@@ -14,7 +14,7 @@ const startServer = async() => {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
-    context: authMiddleware
+    // context: authMiddleware
   });
 
   // Start the Apollo server
@@ -40,4 +40,4 @@ db.once('open', () => {
 });
 
 
-// about 3/4 thru 21.1.4
+// at the graphql playground section near bottom of 21.1.4

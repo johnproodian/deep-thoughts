@@ -1,6 +1,7 @@
 const express = require('express');
 // import ApolloServer
 const { ApolloServer } = require('apollo-server-express');
+const { authMiddleware } = require('./utils/auth');
 
 // import our typeDefs and resolvers
 const { typeDefs, resolvers } = require('./schemas');
@@ -14,7 +15,7 @@ const startServer = async() => {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
-    // context: authMiddleware
+    context: authMiddleware
   });
 
   // Start the Apollo server
@@ -40,4 +41,4 @@ db.once('open', () => {
 });
 
 
-// at the graphql playground section near bottom of 21.1.4
+// thru 21.2.6

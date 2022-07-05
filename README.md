@@ -6,9 +6,9 @@ A social media application where users can sign up, create an account, post thei
 
 This was created mostly from scratch (with the exception of some styling and front end components that were provided) by following a tutorial, but I only got a little more than halfway through--which was mostly the back end, but also the start of the front end.
 
-When I returned to it to the project, I wanted to walk through the front end segments again, so I started a new repo using a "snapshot" of the tutorial's code from right before the front end portion started, and went on from there. In retrospect, I should have done a straight ```git revert```, but, alas, I took a more convoluted route.
+When I returned to it to the project, I wanted to start over from the start of the front end segments, so I started a new repo using a "snapshot" of the tutorial's code from right before the front end portion started (provided by the tutorial), and went on from there. In retrospect, I should have done a straight ```git revert```, but, alas, I took this more convoluted route.
 
-Thus, finsihed project (if it has been finished) can be found at this repo (and the deployed app in its README, if its deployment exists yet): 
+The finished project (if it has been finished) can be found at this repo (and the link to the deployed app in its README, if its deployment exists yet): 
 https://github.com/johnproodian/deep-thoughts-2
 
 ## Built With

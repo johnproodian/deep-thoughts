@@ -16,9 +16,9 @@ https://github.com/johnproodian/deep-thoughts-2
 * React.js
 
 ## What I Learned
-* the difference between GraphQL and RESTful APIs
-* configuring a proxy server for local development of a MERN application
-* implementing client-side routing using React Router
-* building API endpoints with GraphQL in a MERN application
-* configuring and deploying a MERN application to Heroku
-* implementing authetication with JWT
+* Differences between GraphQL and RESTful APIs
+* Configuring a proxy server for local development of a MERN application
+* Implementing client-side routing using React Router
+* Building API endpoints with GraphQL in a MERN application
+* Configuring and deploying a MERN application to Heroku
+* Implementing authetication with JWT

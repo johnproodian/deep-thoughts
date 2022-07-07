@@ -13,6 +13,12 @@ https://github.com/johnproodian/deep-thoughts-2
 
 ## Built With
 * JavaScript
+* Node.js
+* Express.js
+* NoSQL/MySQL
+* Mongoose
+* GraphQL
+* Apollo Server
 * React.js
 
 ## What I Learned
